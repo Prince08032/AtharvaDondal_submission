@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+```
+
+## **Step 2: Create/Update Root .gitignore**
+
+In your **project root** folder, update `.gitignore`:
+```
+# Dependencies
+**/node_modules/
+node_modules/
+
+# Environment variables
+**/.env
+**/.env.local
+**/.env.*.local
+.env
+.env.local
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
