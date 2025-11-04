@@ -37,6 +37,7 @@ const yoga = (0, graphql_yoga_1.createYoga)({
     cors: {
         origin: [
             "https://web-gmiw.onrender.com",
+            "https://atharvadondal-web.onrender.com",
             "http://localhost:3000",
         ],
         methods: ["GET", "POST", "OPTIONS"],
