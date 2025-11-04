@@ -35,7 +35,7 @@ const yoga = createYoga<GraphQLContext>({
 
     return {
       supabaseAdmin, // For admin operations (storage, edge functions)
-      supabaseUser, // For database operations (respects RLS)
+      supabaseUser,  // For database operations (respects RLS)
       user,
       request,
     };
