@@ -64,7 +64,7 @@ export async function getAuthenticatedUser(
   }
 }
 
-export function requireAuth(user: any): any {
+export function requireAuth(user: { id: string; email?: string }): { id: string; email?: string } {
   if (!user) {
     throw new GraphQLError('Authentication required', {
       extensions: { code: 'UNAUTHENTICATED' },
