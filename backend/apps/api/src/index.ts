@@ -43,6 +43,7 @@ const yoga = createYoga<GraphQLContext>({
   cors: {
     origin: [
       "https://web-gmiw.onrender.com",
+      "https://atharvadondal-web.onrender.com",
       "http://localhost:3000",
     ],
     methods: ["GET", "POST", "OPTIONS"],
